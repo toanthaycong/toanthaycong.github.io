@@ -50,7 +50,7 @@
         });
 
         $scrollUp.on('click', function (evt) {
-            $('html, body').animate({scrollTop: 0}, 600);
+            $('html, body').animate({scrollTop: 0}, 100);
             evt.preventDefault();
         });
     }
@@ -973,10 +973,10 @@
             navigation: true,
             loopBottom: false,
             sectionSelector: 'section',
-            scrollingSpeed: 1000,
+            scrollingSpeed: 2000,
             autoScrolling: true,
             fitToSection: true,
-            fitToSectionDelay: 1000,
+            fitToSectionDelay: 2000,
             afterLoad: function () {
                 var activeSetion = $('.fp-viewing-' + 3);
                 activeSetion.addClass('tm-one-page-footer-expanded');
